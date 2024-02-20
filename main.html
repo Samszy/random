@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swapping Colors</title>
+    <style>
+        #pink {
+            background-color: deeppink;
+            color: bisque;
+            font-weight: bolder;
+        }
+        #black {
+            background-color: black;
+            color: bisque;
+            font-weight: bolder;
+        }
+        #orange {
+            background-color: coral;
+            font-weight: bolder;
+        }
+        #blue {
+            background-color: blue;
+            font-weight: bolder;
+            color: bisque;
+        }
+
+        button {
+            border-radius: 10px;
+            height: 40px;
+            width: 100px;
+            margin: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h3 style= "color:aliceblue; font-size: x-large;">Swapping Colors</h3>
+    <button id="pink" onclick="setColor('pink')">Pink</button>
+    <button onclick="randomColor()">Random</button>
+    <button id="black" onclick="setColor('black')">Black</button>
+    <button id="orange" onclick="setColor('orange')">Orange</button>
+    <button id="blue" onclick="setColor('blue')">Blue</button>
+    <script src="index.js"></script>
+</body>
+</html>
